@@ -12,13 +12,11 @@ This repository provides the source code for DimReader.  The full paper can be f
 
 DimReader offers 3 methods:
     
-    1. DimReader: The user provides a perturbation for each point and it calculates the effect of perturbing
-    each point in the specified way.
+    1. DimReader: The user provides a perturbation for each point and it calculates the effect of perturbing each point in the specified way.
 
     2. Tangent Map Recovery: The calculation of the entire tangent map for a given dataset and projection.
 
-    3. Perturbation Discovery: The calculation of the perturbation that changes the projection the most 
-    (requires the tangent map).
+    3. Perturbation Discovery: The calculation of the perturbation that changes the projection the most (requires the tangent map).
 
 ## Running DimReader
 DimReader can be run with the command
