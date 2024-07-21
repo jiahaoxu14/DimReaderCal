@@ -298,6 +298,7 @@ if __name__ == "__main__":
         date = str(datetime.datetime.fromtimestamp(time.time())).replace(" ", "_")
         date = date.split(".")[0]
 
+        # prefix of output file
         prefix = inputFile[:inputFile.rfind(".")] + "_" + projections[projInd] + "_" + date
 
         if str.lower(projection) != "tangent-map":
