@@ -104,7 +104,7 @@ projections = ["tsne", "Tangent-Map"]
 projectionClasses=[tSNE.tSNE,None]
 projectionParamOpts = [tSNE.paramOpts,[]]
 
-
+# read points of cvs file
 def readFile(filename):
     read = csv.reader(open(filename, 'rt'))
 
